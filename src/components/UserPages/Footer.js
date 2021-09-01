@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import logoHead from "../../assets/logo-dark.png";
 import { toast } from "react-toastify";
 
+const d = new Date();
+const currYear = d.getFullYear();
+
+
 const Footer = () => {
   const [emailInput, setEmailInput] = useState("");
   const userSendGmailNotification = () => {
@@ -47,7 +51,7 @@ const Footer = () => {
             world who you are with style without having to speak.
           </small>
           <div className="mt-4">
-            <small className="pt-4">© 2021 Metro</small>
+            <small className="pt-4">© {currYear} Metro</small>
           </div>
         </div>
 

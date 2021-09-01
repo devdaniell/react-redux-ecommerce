@@ -28,9 +28,9 @@ function App() {
           </Switch>
         </Router>
       </BrowserView>
-      {/* <MobileView>
+      <MobileView>
         <h1> Not Rendered on Mobile, Please check via Desktop/PC. </h1>
-      </MobileView> */}
+      </MobileView>
     </div>
   );
 }
